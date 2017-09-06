@@ -57,6 +57,9 @@
                 this.$router.push('/')
               })
           }
+          this.$Message.success('登录成功')
+            // auth.login(res.data.data)
+          this.$router.push('/')
         })
       }
     }
